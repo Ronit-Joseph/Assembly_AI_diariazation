@@ -1,4 +1,3 @@
-from platforms.ClarityAI import Clarity
 from platforms.AssemblyAI import Assembly
 
 
@@ -9,12 +8,6 @@ def main(
     max_speakers: int,
     assemblyAI_API_Key: str = "",
 ):
-    if platform == "ClarityAI":
-        clarity = Clarity()
-        res = clarity.transcribe_and_diarize(
-            audio_file=audio_file, min_speakers=min_speakers, max_speakers=max_speakers
-        )
-        return res
 
     elif platform == "AssemblyAI":
         assembly = Assembly()
