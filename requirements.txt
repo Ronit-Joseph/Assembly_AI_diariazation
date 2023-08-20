@@ -1,0 +1,10 @@
+julius==0.2.7
+soundfile==0.12.1
+faster-whisper==0.6.0
+transformers==4.29.2
+ffmpeg-python==0.2.0
+nltk==3.8.1
+pyannote.audio @ git+https://github.com/pyannote/pyannote-audio.git@7379f1c82be093078354449100e1a84cbdfbafdf
+wget==3.2
+deepmultilingualpunctuation==1.0.1
+grpcio==1.54.2
